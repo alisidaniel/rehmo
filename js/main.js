@@ -146,9 +146,9 @@ jQuery(document).ready(function ($) {
       768: {
         items: 2
       },
-      900: {
-        items: 3
-      }
+      // 900: {
+      //   items: 3
+      // }
     }
   });
 
