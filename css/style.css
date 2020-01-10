@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #cccccc;
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
@@ -32,8 +32,6 @@ p {
   padding: 0;
   margin: 0 0 30px 0;
 }
-
-
 
 h1,
 h2,
@@ -247,7 +245,7 @@ h6 {
 }
 
 #intro #intro-carousel::before {
-  content: '';
+  content: "";
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
@@ -294,12 +292,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu>li {
+.nav-menu > li {
   float: left;
 }
 
-.nav-menu li:hover>ul,
-.nav-menu li.sfHover>ul {
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
   display: block;
 }
 
@@ -351,12 +349,12 @@ h6 {
   outline: none;
 }
 
-.nav-menu li:hover>a,
-.nav-menu .menu-active>a {
+.nav-menu li:hover > a,
+.nav-menu .menu-active > a {
   color: #50d8af;
 }
 
-.nav-menu>li {
+.nav-menu > li {
   margin-left: 10px;
 }
 
@@ -380,7 +378,7 @@ h6 {
   text-transform: none;
 }
 
-.nav-menu ul li:hover>a {
+.nav-menu ul li:hover > a {
   color: #50d8af;
 }
 
@@ -517,7 +515,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-header h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -556,14 +554,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h4 {
-  color: #0c2e8a;
+  color: #0edd92;
   font-weight: 600;
   font-size: 30px;
   font-family: "Raleway", sans-serif;
 }
 
 #about .content h3 {
-  color: #0EDD92;
+  color: #0edd92;
   font-weight: 600;
   font-size: 25px;
   line-height: 29px;
@@ -1050,7 +1048,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
-
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
